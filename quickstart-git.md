@@ -1,6 +1,7 @@
 # Quickstart Git
 
 01. Creating a repo
+<<<<<<< HEAD
 02. Clone a repo
 
 ```
@@ -73,3 +74,4 @@ git merge
 ```
 git push
 ```
+
