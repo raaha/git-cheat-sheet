@@ -1,7 +1,7 @@
 # Quickstart Git
 
 01. Creating a repo
-<<<<<<< HEAD
+
 02. Clone a repo
 
 ```
@@ -25,13 +25,13 @@ git commit -m "message"
 05. Adding files and comming at the same time
 
 ```
-git -am "message"
+git commit -am "message"
 ```
 
-06. Pushing commits to a remote repository
+06. Pushing commits to a remote repository (main)
 
 ```
-git push 
+git push ...
 ```
 
 07. Creating a branch
@@ -57,7 +57,12 @@ git add <filename>
 git commit -m "message"s
 ```
 
-11. Pushing commits to a remote repository 
+11. Pushing commits to a remote repository (branch)
+
+```
+git push --set-upstream ....
+```
+
 12. Return to the master branch
 
 ```
@@ -69,9 +74,5 @@ git checkout master
 git merge
 ```
 
-14. Pushing commits to a remote repostiory
 
-```
-git push
-```
 
