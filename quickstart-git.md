@@ -28,10 +28,10 @@ git commit -m "message"
 git commit -am "message"
 ```
 
-06. Pushing commits to a remote repository (main)
+06. Pushing commits to a remote repository (master)
 
 ```
-git push ...
+git push
 ```
 
 07. Creating a branch
@@ -39,6 +39,7 @@ git push ...
 ```
 git branch newbranch
 ```
+
 08. Change to the new branch
 
 ```
@@ -50,6 +51,7 @@ git checkout newbranch
 ```
 touch <filename.extension>
 ```
+
 10. Commit your change 
 
 ```
@@ -57,10 +59,10 @@ git add <filename>
 git commit -m "message"s
 ```
 
-11. Pushing commits to a remote repository (branch)
+11. Pushing commits to a remote repository not created (branch)
 
 ```
-git push --set-upstream ....
+git push --set-upstream origin newbranch
 ```
 
 12. Return to the master branch
@@ -68,6 +70,7 @@ git push --set-upstream ....
 ```
 git checkout master
 ```
+
 13. Merge
 
 ```
